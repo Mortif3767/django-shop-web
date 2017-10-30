@@ -22,5 +22,6 @@ from django.views.static import serve
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^', include('shop.urls', namespace='shop')),
+    url(r'^cart/', include('cart.urls', namespace='cart')),
     url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
 ]
