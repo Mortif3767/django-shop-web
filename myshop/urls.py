@@ -23,6 +23,8 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^cart/', include('cart.urls', namespace='cart')),
     url(r'^orders/', include('orders.urls', namespace='orders')),
+    url(r'^paypal/', include('paypal.standard.ipn.urls')),
+    url(r'^payment/', include('payment.urls', namespace='payment')),
     url(r'^', include('shop.urls', namespace='shop')),
     url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
 ]
