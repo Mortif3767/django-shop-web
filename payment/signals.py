@@ -21,7 +21,7 @@ def payment_notification(sender, **kwargs):
         message = 'here is your order invoice.'
         email = EmailMessage(subject,
                              message,
-                             settings.PAYPAL_RECEIVER_EMAIL.
+                             settings.PAYPAL_RECEIVER_EMAIL,
                              [order.email])
         html = render_to_string('orders/order/pdf.html', {'order': order})
         out = BytesIO()
