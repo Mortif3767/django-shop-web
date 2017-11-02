@@ -26,6 +26,7 @@ urlpatterns = [
     url(r'^paypal/', include('paypal.standard.ipn.urls')),
     url(r'^payment/', include('payment.urls', namespace='payment')),
     url(r'^coupons/', include('coupons.urls', namespace='coupons')),
+    url(r'^rosetta/', include('rosetta.urls')),
     url(r'^', include('shop.urls', namespace='shop')),
     url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
 ]

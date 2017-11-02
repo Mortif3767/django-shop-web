@@ -10,12 +10,15 @@ cssselect2==0.2.1
 defusedxml==0.5.0
 Django==1.8.6
 django-paypal==0.4.1
+django-rosetta==0.7.13
 html5lib==0.999999999
 idna==2.6
 kombu==4.1.0
+microsofttranslator==0.8
 olefile==0.44
 pdfrw==0.4
 Pillow==4.3.0
+polib==1.0.8
 pycparser==2.18
 Pyphen==0.9.4
 pytz==2017.3
