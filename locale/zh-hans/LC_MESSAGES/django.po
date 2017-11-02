@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-02 21:27+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cart/forms.py:11
+msgid "Quantity"
+msgstr "数量"
+
+#: coupons/forms.py:6
+msgid "Coupon"
+msgstr "优惠券"
+
+#: myshop/settings.py:101
+msgid "English"
+msgstr "英语"
+
+#: myshop/settings.py:102
+msgid "Simplified Chinese"
+msgstr "简体中文"
+
+#: shop/templates/shop/base.html:7 shop/templates/shop/base.html.py:12
+msgid "My shop"
+msgstr "墨墨淘"
+
+#: shop/templates/shop/base.html:18
+msgid "Your cart:"
+msgstr "购物车"
+
+#: shop/templates/shop/base.html:23
+msgid "Your cart is empty."
+msgstr "购物车空"
+
+#: shop/templates/shop/product/detail.html:18
+msgid "Add to cart"
+msgstr "添至购物车"
