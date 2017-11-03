@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-02 22:20+0800\n"
-"PO-Revision-Date: 2017-11-02 14:26+0000\n"
+"POT-Creation-Date: 2017-11-03 09:39+0800\n"
+"PO-Revision-Date: 2017-11-03 02:30+0000\n"
 "Last-Translator: b'  <mortif@foxmail.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -32,14 +32,42 @@ msgstr "英语"
 
 #: myshop/settings.py:103
 msgid "Simplified Chinese"
-msgstr "简体中文"
+msgstr "中文"
+
+#: myshop/urls.py:27
+msgid "^cart/"
+msgstr "^gouwuche/"
+
+#: myshop/urls.py:28
+msgid "^orders/"
+msgstr "^dingdan/"
+
+#: myshop/urls.py:30
+msgid "^payment/"
+msgstr "^jiesuan/"
+
+#: myshop/urls.py:31
+#| msgid "Coupon"
+msgid "^coupons/"
+msgstr "^youhuiquan/"
+
+#: payment/urls.py:7
+msgid "^process/$"
+msgstr "^jiesuanzhong/"
+
+#: payment/urls.py:8
+msgid "^done/$"
+msgstr "^wancheng/"
+
+#: payment/urls.py:9
+msgid "^canceled/$"
+msgstr "^jiesuanquxiao/"
 
 #: shop/templates/shop/base.html:7 shop/templates/shop/base.html.py:12
 msgid "My shop"
 msgstr "墨墨淘"
 
 #: shop/templates/shop/base.html:18
-#, fuzzy
 #| msgid "Your cart:"
 msgid "Your cart"
 msgstr "购物车"

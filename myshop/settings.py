@@ -44,6 +44,7 @@ INSTALLED_APPS = (
     'payment',
     'coupons',
     'rosetta',
+    'parler',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -115,6 +116,16 @@ LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale/'),
 )
 
+PARLER_LANGUAGES = {
+    None: (
+        {'code': 'en',},
+        {'code': 'zh-hans',},
+    ),
+    'default': {
+        'fallback': 'en',
+        'hidden_untranslated': False,
+    }
+}
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
