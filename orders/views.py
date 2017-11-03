@@ -8,12 +8,14 @@ from django.conf import settings
 from django.http import HttpResponse
 from django.template.loader import render_to_string
 import weasyprint
+from shop.recommender import Recommender
 
 
 def order_create(request):
     cart = Cart(request)
     if request.method == 'POST':
         form = OrderCreateForm(request.POST)
+        r = Recommender()
         if form.is_valid():
             order = form.save(commit=False)
             if cart.coupon:
@@ -25,6 +27,8 @@ def order_create(request):
                                          product=item['product'],
                                          price=item['price'],
                                          quantity=item['quantity'])
+            cart_products = [item['product'] for item in cart]
+            r.products_bought(cart_products)
             cart.clear()
             request.session['order_id'] = order.id
             return redirect(reverse('payment:process'))

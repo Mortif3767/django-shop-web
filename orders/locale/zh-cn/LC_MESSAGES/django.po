@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-03 20:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: orders/models.py:10
+msgid "first name"
+msgstr "姓"
+
+#: orders/models.py:11
+msgid "last name"
+msgstr "名"
+
+#: orders/models.py:12
+msgid "e-mail"
+msgstr "电子邮箱"
+
+#: orders/models.py:13
+msgid "address"
+msgstr "地址"
+
+#: orders/models.py:14
+msgid "postal code"
+msgstr "邮政编码"
+
+#: orders/models.py:15
+msgid "city"
+msgstr "地址"
+
+#: orders/templates/orders/order/create.html:4
+#: orders/templates/orders/order/create.html:8
+msgid "Checkout"
+msgstr "结算"
+
+#: orders/templates/orders/order/create.html:11
+msgid "Your order"
+msgstr "你的订单"
+
+#: orders/templates/orders/order/create.html:26
+msgid "Total"
+msgstr "总额"
+
+#: orders/urls.py:7
+msgid "^create/$"
+msgstr "^chuangjian/"

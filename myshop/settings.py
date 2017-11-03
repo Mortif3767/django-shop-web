@@ -141,3 +141,7 @@ CART_SESSION_ID = 'cart'
 
 PAYPAL_RECEIVER_EMAIL = 'mortif@foxmail.com'
 PAYPAL_TEST = True
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = '6379'
+REDIS_DB = 0
