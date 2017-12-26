@@ -86,8 +86,12 @@ WSGI_APPLICATION = 'myshop.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'myshop',
+        'USER': 'myshop',
+        'PASSWORD': '******',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -109,6 +113,7 @@ LOCALE_PATHS = (
 )
 
 TIME_ZONE = 'UTC'
+#TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
