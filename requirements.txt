@@ -25,7 +25,7 @@ pytz==2017.3
 requests==2.18.4
 six==1.11.0
 tinycss2==0.6.1
-urllib3==1.22
+urllib3==1.24.2
 vine==1.1.4
 WeasyPrint==0.41
 webencodings==0.5.1
