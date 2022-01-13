@@ -17,7 +17,7 @@ kombu==4.1.0
 microsofttranslator==0.8
 olefile==0.44
 pdfrw==0.4
-Pillow==4.3.0
+Pillow==9.0.0
 polib==1.0.8
 pycparser==2.18
 Pyphen==0.9.4
